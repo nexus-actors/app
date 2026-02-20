@@ -1,0 +1,23 @@
+{
+    "name": "nexus-actors/app",
+    "description": "Nexus application bootstrap — convenience API for building actor systems.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.5",
+        "nexus-actors/core": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monadial\\Nexus\\App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Monadial\\Nexus\\App\\Tests\\": "tests/"
+        }
+    }
+}
